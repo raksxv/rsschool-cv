@@ -31,3 +31,11 @@
 - **C (Basics)**
 - **C# (Basics)**
 - **Python (Basics)**
+
+## Code example
+
+```
+function multiply(a, b){
+  return a * b;
+}
+```
