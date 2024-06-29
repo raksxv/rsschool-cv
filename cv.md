@@ -22,3 +22,12 @@
 - **Interpersonal Communication**
 - **Feedback Reception**
 - **Continuous Learning**
+  
+## Hard skills
+
+- **HTML**
+- **CSS**
+- **JavaScript (Basics)**
+- **C (Basics)**
+- **C# (Basics)**
+- **Python (Basics)**
