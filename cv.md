@@ -57,3 +57,9 @@ function multiply(a, b){
 ##### Computer Science | Master's degree
 
 ###### October 2022 - February 2024 | Ukraine
+
+## Languages
+
+- **English: Upper-Intermediate**
+- **Ukrainian: Native**
+- **Russian: Native**
