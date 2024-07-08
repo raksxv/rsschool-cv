@@ -422,3 +422,88 @@ body {
     padding: 8px;
     margin: 0px;
 }
+
+.education-section {
+    margin: 0;
+    margin-bottom: 80px;
+}
+
+.education-section-header-border-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.education-section-header-border {
+    display: inline-block;
+    width: 100%;
+    border: 0px, solid #EDE8F5;
+    border-radius: 14px;
+    box-shadow: 0 0 10px #EDE8F5;
+    padding: 8px;
+    background-color: #EDE8F5;
+}
+
+.education-section-header {
+    color: #26293b;
+    font-size: 60px;
+    font-weight: 800;
+    float: center;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: 10px;
+}
+
+.education-section-place-first {
+    color: #26293b;
+    border: 1px solid #EDE8F5;
+    border-radius: 14px;
+    display: block;
+    text-align: left;
+    box-shadow: 0px 0px 10px #EDE8F5;
+    padding: 16px;
+    margin: 0px;
+    margin-bottom: 16px;
+}
+
+.education-section-place-first-align {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    float: center;
+}
+
+.education-section-place {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.education-section-speciality {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.education-section-study-period {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.education-section-place-second {
+    color: #26293b;
+    border: 1px solid #EDE8F5;
+    border-radius: 14px;
+    display: block;
+    text-align: left;
+    box-shadow: 0px 0px 10px #EDE8F5;
+    padding: 16px;
+    margin: 0px;
+}
+
+.education-section-place-second-align {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    float: center;
+}
