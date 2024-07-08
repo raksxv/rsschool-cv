@@ -563,3 +563,65 @@ body {
     text-align: center;
     line-height: 0;
 }
+
+footer {
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    padding: 0 220px;
+    border-radius: 14px;
+    box-shadow: 0 0 10px #EDE8F5;
+    background-color: #EDE8F5;
+}
+
+.footer-section-header-border-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-section-header-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-section-rs-logo {
+    width: 50%;
+    height: auto;
+    color: #26293b;
+    float: left;
+}
+
+.footer-regular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #26293b;
+    font-size: 56px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.footer-regular a {
+    color: #26293b;
+
+}
+
+.footer-regular-github-link {
+    margin: 0px;
+}
+
+.footer-regular-copyright {
+    margin: 0px;
+    line-height: 52px;
+    margin-bottom: 8px;
+}
