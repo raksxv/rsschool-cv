@@ -30,6 +30,7 @@ body {
 }
 
 .bio-section {
+    padding: 20px;
     margin-bottom: 180px;
 }
 
@@ -613,7 +614,6 @@ footer {
 
 .footer-regular a {
     color: #26293b;
-
 }
 
 .footer-regular-github-link {
