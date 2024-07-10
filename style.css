@@ -425,6 +425,61 @@ body {
     margin: 0px;
 }
 
+.completed-tasks {
+    margin: 0;
+    margin-bottom: 80px;
+}
+
+.completed-tasks-header-border-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.completed-tasks-header-border {
+    display: inline-block;
+    width: 100%;
+    border: 0px, solid #EDE8F5;
+    border-radius: 14px;
+    box-shadow: 0 0 10px #EDE8F5;
+    padding: 8px;
+    background-color: #EDE8F5;
+}
+
+.completed-tasks-header {
+    color: #26293b;
+    font-size: 60px;
+    font-weight: 800;
+    float: center;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: 10px;
+}
+
+.completed-tasks-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+}
+
+.completed-tasks-link {
+    color: #26293b;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 8px;
+    padding: 16px;
+    display: block;
+    border: 1px solid #EDE8F5;
+    border-radius: 14px;
+    box-shadow: 0px 0px 10px #EDE8F5;
+    text-align: center;
+    line-height: 0;
+}
+
 .education-section {
     margin: 0;
     margin-bottom: 80px;
