@@ -30,6 +30,7 @@ body {
 }
 
 .bio-section {
+    padding: 20px;
     margin-bottom: 180px;
 }
 
@@ -77,7 +78,7 @@ body {
 }
 
 .bio-section-separator {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
     margin-top: 16px;
     width: 50%;
 }
@@ -185,7 +186,6 @@ body {
 .contacts {
     margin: 0px;
     margin-bottom: 200px;
-
 }
 
 .contacts-header-border-align {
@@ -198,7 +198,7 @@ body {
 .contacts-header-border {
     display: inline-block;
     width: 100%;
-    border: 0px, solid #EDE8F5;
+    border: 0px solid #EDE8F5;
     border-radius: 14px;
     box-shadow: 0 0 10px #EDE8F5;
     padding: 8px;
@@ -210,7 +210,6 @@ body {
     color: #26293b;
     font-size: 60px;
     font-weight: 800;
-    float: center;
     text-align: center;
     margin: 0px;
     letter-spacing: 10px;
@@ -223,9 +222,12 @@ body {
     align-items: center;
     text-align: center;
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contacts-content li {
     padding: 20px;
-    margin: 0px;
-    text-decoration: none;
 }
 
 .contacts-img-item {
@@ -240,11 +242,11 @@ body {
 }
 
 .contacts-content-txt-over {
+    display: block;
     color: #26293b;
     font-size: 24px;
     font-weight: 800;
     margin: 0px;
-    display: block;
     border: 1px solid #EDE8F5;
     border-radius: 14px;
     box-shadow: 0px 0px 10px #EDE8F5;
@@ -252,11 +254,11 @@ body {
 }
 
 .contacts-content-txt-under {
+    display: block;
     color: #26293b;
     font-size: 18px;
     font-weight: 400;
     margin: 0px;
-    display: block;
     border: 1px solid #EDE8F5;
     border-radius: 14px;
     box-shadow: 0px 0px 10px #EDE8F5;
@@ -421,6 +423,61 @@ body {
     box-shadow: 0px 0px 10px #EDE8F5;
     padding: 8px;
     margin: 0px;
+}
+
+.completed-tasks {
+    margin: 0;
+    margin-bottom: 80px;
+}
+
+.completed-tasks-header-border-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.completed-tasks-header-border {
+    display: inline-block;
+    width: 100%;
+    border: 0px, solid #EDE8F5;
+    border-radius: 14px;
+    box-shadow: 0 0 10px #EDE8F5;
+    padding: 8px;
+    background-color: #EDE8F5;
+}
+
+.completed-tasks-header {
+    color: #26293b;
+    font-size: 60px;
+    font-weight: 800;
+    float: center;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: 10px;
+}
+
+.completed-tasks-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+}
+
+.completed-tasks-link {
+    color: #26293b;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 8px;
+    padding: 16px;
+    display: block;
+    border: 1px solid #EDE8F5;
+    border-radius: 14px;
+    box-shadow: 0px 0px 10px #EDE8F5;
+    text-align: center;
+    line-height: 0;
 }
 
 .education-section {
@@ -613,7 +670,6 @@ footer {
 
 .footer-regular a {
     color: #26293b;
-
 }
 
 .footer-regular-github-link {
