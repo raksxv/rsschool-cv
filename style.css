@@ -184,7 +184,7 @@ body {
 }
 
 .contacts {
-    margin: 0px;
+    margin: 0;
     margin-bottom: 200px;
 }
 
@@ -198,12 +198,12 @@ body {
 .contacts-header-border {
     display: inline-block;
     width: 100%;
-    border: 0px solid #EDE8F5;
+    border: 0 solid #EDE8F5;
     border-radius: 14px;
     box-shadow: 0 0 10px #EDE8F5;
     padding: 8px;
     background-color: #EDE8F5;
-    margin: 0px;
+    margin: 0;
 }
 
 .contacts-header {
@@ -211,7 +211,7 @@ body {
     font-size: 60px;
     font-weight: 800;
     text-align: center;
-    margin: 0px;
+    margin: 0;
     letter-spacing: 10px;
 }
 
@@ -234,11 +234,11 @@ body {
     display: block;
     width: auto;
     height: auto;
-    border: 0px solid #EDE8F5;
+    border: 0 solid #EDE8F5;
     border-radius: 14px;
     box-shadow: 0 0 10px #EDE8F5;
     background-color: #EDE8F5;
-    margin: 0px;
+    margin: 0;
 }
 
 .contacts-content-txt-over {
@@ -249,8 +249,8 @@ body {
     margin: 0px;
     border: 1px solid #EDE8F5;
     border-radius: 14px;
-    box-shadow: 0px 0px 10px #EDE8F5;
-    line-height: 0px;
+    box-shadow: 0 0 10px #EDE8F5;
+    line-height: 40px;
 }
 
 .contacts-content-txt-under {
@@ -258,11 +258,11 @@ body {
     color: #26293b;
     font-size: 18px;
     font-weight: 400;
-    margin: 0px;
+    margin: 0;
     border: 1px solid #EDE8F5;
     border-radius: 14px;
-    box-shadow: 0px 0px 10px #EDE8F5;
-    line-height: 0px;
+    box-shadow: 0 0 10px #EDE8F5;
+    line-height: 40px;
 }
 
 .contacts-content-txt-under a {
